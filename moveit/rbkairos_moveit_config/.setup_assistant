@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: rbkairos_description
+    relative_path: robots/versions/rbkairos_ur5_egh.urdf.xacro
+    xacro_args: --inorder prefix:=robot_
+  SRDF:
+    relative_path: config/rbkairos.srdf
+  CONFIG:
+    author_name: aezquerro
+    author_email: aezquerro@theconstructsim.com
+    generated_timestamp: 1581591448

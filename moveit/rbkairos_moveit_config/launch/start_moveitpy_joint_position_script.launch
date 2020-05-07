@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="start_moveitpy_joint_position_script_node" pkg="rbkairos_moveit_config" type="moveitpy_joint_position.py">
+    </node>
+</launch>

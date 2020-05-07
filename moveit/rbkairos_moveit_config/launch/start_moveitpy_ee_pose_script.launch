@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="start_moveitpy_ee_pose_script_node" pkg="rbkairos_moveit_config" type="moveitpy_ee_pose.py">
+    </node>
+</launch>
